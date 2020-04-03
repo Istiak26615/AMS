@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Accountant";
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+<link href="~/css/table.css" rel="stylesheet" />
+
+<div class="app-content">
+    <h1 class="text-center">Welcome To Student Pannel</h1>
+    <br /><br />
+    @*new lines start*@
+    <table class="table table-bordered table-hover">
+        <thead>
+
+
+            <tr>
+                <td>
+                    <b>Total Student Payment Collection</b>
+                </td>
+                <td>
+                    @ViewBag.stuPaymentTotal TK
+                </td>
+            </tr>
+
+
+
+
+        </thead>
+    </table>
+    @*new lines end*@
+
+
+</div>
+
+
